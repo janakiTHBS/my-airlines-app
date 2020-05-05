@@ -1,0 +1,885 @@
+{
+    "loginDetails": [
+      {
+        "id": "1",
+        "userName": "admin",
+        "password": "admin",
+        "type": "admin"
+      },
+      {
+        "id": "2",
+        "userName": "user",
+        "password": "password",
+        "type": "user"
+      }
+    ],
+
+    "flightDetailsList": [
+      {
+        "id": "1",
+        "flightNo": "100",
+        "airline": "G9",
+        "departureStation": "BLR",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-04-27T23:30:00",
+        "arrivalDate": "2020-04-28T01:30:00",
+        "specialMeals": [
+           "AVML",
+           "IVML",
+           "NVML"
+        ],
+        "flightInShopReqs": [
+          "Magazinesssss",
+          "Chocolates"
+        ],
+        "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+
+      },
+      {
+        "id": "2",
+        "flightNo": "101",
+        "airline": "AI",
+        "departureStation": "SHJ",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-04-30T10:30:00",
+        "arrivalDate": "2019-04-30T14:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "3",
+        "flightNo": "103",
+        "airline": "J2",
+        "departureStation": "BLR",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-05T12:00:00",
+        "arrivalDate": "2020-05-05T18:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "4",
+        "flightNo": "104",
+        "airline": "G9",
+        "departureStation": "BLR",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-05T10:30:00",
+        "arrivalDate": "2020-05-05T16:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "5",
+        "flightNo": "105",
+        "airline": "AI",
+        "departureStation": "SHJ",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-07T08:30:00",
+        "arrivalDate": "2020-05-07T12:00:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+          "ExcessBaggage",
+          "FoodAndBeverages"
+         ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "6",
+        "flightNo": "106",
+        "airline": "J2",
+        "departureStation": "HYD",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-07T07:30:00",
+        "arrivalDate": "2020-05-07T09:00:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "7",
+        "flightNo": "107",
+        "airline": "G9",
+        "departureStation": "BLR",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-11T18:40:00",
+        "arrivalDate": "2020-05-11T23:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "8",
+        "flightNo": "108",
+        "airline": "AI",
+        "departureStation": "SHJ",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-11T13:30:00",
+        "arrivalDate": "2020-05-11T18:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "9",
+        "flightNo": "109",
+        "airline": "J2",
+        "departureStation": "HYD",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-14T23:30:00",
+        "arrivalDate": "2020-05-15T01:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "10",
+        "flightNo": "110",
+        "airline": "G9",
+        "departureStation": "BLR",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-14T20:30:00",
+        "arrivalDate": "2020-05-14T23:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "11",
+        "flightNo": "111",
+        "airline": "AI",
+        "departureStation": "SHJ",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-12T20:30:00",
+        "arrivalDate": "2020-05-12T23:30:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      },
+      {
+        "id": "12",
+        "flightNo": "112",
+        "airline": "J2",
+        "departureStation": "HYD",
+        "arrivalStation": "DEL",
+        "departureDate": "2020-05-12T09:30:00",
+        "arrivalDate": "2020-05-12T12:00:00",
+        "specialMeals": [
+            "AVML",
+            "IVML",
+            "NVML"
+         ],
+         "flightInShopReqs": [
+           "Magazinesssss",
+           "Chocolates"
+         ],
+         "axilaryService":[
+            "ExcessBaggage",
+            "FoodAndBeverages"
+           ],
+        "passengers": [
+          {  
+              "name": "lavanya",
+              "DOB":"Tuesday Aug 22 1996 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G1234JK",
+              "checkinStatus": "NC",
+              "passengerType": "WC",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Sukumar",
+              "DOB":"Sunday Sep 10 1994 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2234JK",
+              "checkinStatus": "NC",
+              "passengerType": "INF",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          },
+          {   
+              "name": "Nishvi",
+              "DOB":"Monday Mar 25 2019 00:00:00 GMT+0530 (India Standard Time)",
+              "passportNumber": "G2235JK",
+              "checkinStatus": "NC",
+              "passengerType": "GN",
+              "seatNumber": "-",
+              "address": {
+                  "city": "Banglore",
+                  "state": "Karnataka",
+                  "postalCode": "560059"
+              },
+              "mealPreference": "AVML",
+              "ancillaryServicesList":["ExcessBaggage","FoodAndBeverages"],
+              "inFlightShopReqList":[]
+          }
+      ]
+      }
+    ]
+}   
